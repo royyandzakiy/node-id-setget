@@ -1,4 +1,4 @@
-# Install script for directory: /home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/components/ArduinoJson
+# Install script for directory: /home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/components/ArduinoJson
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

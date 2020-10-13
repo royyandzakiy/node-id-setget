@@ -34,7 +34,7 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("/home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
+  include("/home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/build/esp-idf/mbedtls/mbedtls/cmake_install.cmake")
 
 endif()
 

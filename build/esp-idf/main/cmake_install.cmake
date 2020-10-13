@@ -1,4 +1,4 @@
-# Install script for directory: /home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/main
+# Install script for directory: /home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/main
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

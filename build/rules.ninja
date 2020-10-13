@@ -6,7 +6,7 @@
 # It is included in the main 'build.ninja'.
 
 # =============================================================================
-# Project: nvs-rw-value
+# Project: node-id-setget
 # Configuration: 
 # =============================================================================
 # =============================================================================
@@ -22,7 +22,7 @@ rule CUSTOM_COMMAND
 #############################################
 # Rule for compiling C files.
 
-rule C_COMPILER__nvs-rw-value.2eelf
+rule C_COMPILER__node-id-setget.2eelf
   depfile = $DEP_FILE
   deps = gcc
   command = /home/royyandzakiy/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-gcc $DEFINES $INCLUDES $FLAGS -MD -MT $out -MF $DEP_FILE -o $out   -c $in
@@ -32,7 +32,7 @@ rule C_COMPILER__nvs-rw-value.2eelf
 #############################################
 # Rule for linking CXX executable.
 
-rule CXX_EXECUTABLE_LINKER__nvs-rw-value.2eelf
+rule CXX_EXECUTABLE_LINKER__node-id-setget.2eelf
   command = $PRE_LINK && /home/royyandzakiy/.espressif/tools/xtensa-esp32-elf/esp-2019r2-8.2.0/xtensa-esp32-elf/bin/xtensa-esp32-elf-g++  $FLAGS  $LINK_FLAGS $in  -o $TARGET_FILE $LINK_PATH $LINK_LIBRARIES && $POST_BUILD
   description = Linking CXX executable $TARGET_FILE
   restat = $RESTAT
@@ -1270,7 +1270,7 @@ rule CXX_STATIC_LIBRARY_LINKER____idf_arduino-esp32
 # Rule for re-running cmake.
 
 rule RERUN_CMAKE
-  command = /usr/bin/cmake -S/home/royyandzakiy/project-coding/iot/2020-10/node-id-getset -B/home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/build
+  command = /usr/bin/cmake -S/home/royyandzakiy/project-coding/iot/2020-10/node-id-setget -B/home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/build
   description = Re-running CMake...
   generator = 1
 

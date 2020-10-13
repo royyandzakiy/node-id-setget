@@ -1,8 +1,8 @@
 {
     "project_name":       "bootloader",
     "project_path":       "/home/royyandzakiy/esp/esp-idf/components/bootloader/subproject",
-    "build_dir":          "/home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/build/bootloader",
-    "config_file":        "/home/royyandzakiy/project-coding/iot/2020-10/node-id-getset/sdkconfig",
+    "build_dir":          "/home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/build/bootloader",
+    "config_file":        "/home/royyandzakiy/project-coding/iot/2020-10/node-id-setget/sdkconfig",
     "config_defaults":    "",
     "app_elf":            "bootloader.elf",
     "app_bin":            "bootloader.bin",
